@@ -186,7 +186,7 @@ const Produtos = () => (
 const depoimentos = [
   
   
-  { nome: "Rafael S.", cidade: "Belo Horizonte, MG", texto: "Desconfiava no início mas a experiência foi impecável. Nota fiscal, garantia e tudo certinho." },
+  
 ];
 
 const Depoimentos = () => (
