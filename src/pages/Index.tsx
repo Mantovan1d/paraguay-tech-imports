@@ -200,11 +200,6 @@ const Depoimentos = () => (
       <div className="grid md:grid-cols-3 gap-6">
         {depoimentos.map((d) => (
           <div key={d.nome} className="card-elevated rounded-2xl bg-card p-8 space-y-4">
-            <div className="flex gap-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-primary text-primary" />
-              ))}
-            </div>
             <p className="text-foreground/80 leading-relaxed">"{d.texto}"</p>
             <div>
               <p className="font-semibold">{d.nome}</p>
