@@ -184,7 +184,7 @@ const Produtos = () => (
 );
 
 const depoimentos = [
-  { nome: "Lucas M.", cidade: "São Paulo, SP", texto: "Recebi meu iPhone 16 Pro em perfeito estado, lacrado. Preço absurdamente bom! Recomendo demais." },
+  
   { nome: "Camila R.", cidade: "Curitiba, PR", texto: "Já é a terceira vez que compro. Atendimento rápido, produto original e entrega super rápida." },
   { nome: "Rafael S.", cidade: "Belo Horizonte, MG", texto: "Desconfiava no início mas a experiência foi impecável. Nota fiscal, garantia e tudo certinho." },
 ];
