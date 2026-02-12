@@ -194,7 +194,7 @@ const Depoimentos = () => (
     <div className="container mx-auto px-4">
       <div className="text-center mb-16 space-y-4">
         <h2 className="font-display text-4xl md:text-5xl font-bold">
-          O que dizem nossos <span className="text-primary">clientes</span>
+          Mais perto do que você imagina. <span className="text-primary">Mais barato do que você espera.</span>
         </h2>
       </div>
       <div className="grid md:grid-cols-3 gap-6">
