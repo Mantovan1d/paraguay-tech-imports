@@ -1,4 +1,4 @@
-import { Smartphone, Shield, Truck, DollarSign, MessageCircle, Star, ChevronRight, Phone } from "lucide-react";
+import { Smartphone, Shield, Truck, DollarSign, MessageCircle, ChevronRight, Phone } from "lucide-react";
 import heroImage from "@/assets/hero-iphone.jpg";
 
 const Header = () => (
@@ -183,34 +183,6 @@ const Produtos = () => (
   </section>
 );
 
-const depoimentos = [
-  
-  
-  
-];
-
-const Depoimentos = () => (
-  <section id="depoimentos" className="py-24 bg-background">
-    <div className="container mx-auto px-4">
-      <div className="text-center mb-16 space-y-4">
-        <h2 className="font-display text-4xl md:text-5xl font-bold">
-          Mais perto do que você imagina. <span className="text-primary">Mais barato do que você espera.</span>
-        </h2>
-      </div>
-      <div className="grid md:grid-cols-3 gap-6">
-        {depoimentos.map((d) => (
-          <div key={d.nome} className="card-elevated rounded-2xl bg-card p-8 space-y-4">
-            <p className="text-foreground/80 leading-relaxed">"{d.texto}"</p>
-            <div>
-              <p className="font-semibold">{d.nome}</p>
-              <p className="text-sm text-muted-foreground">{d.cidade}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-);
 
 const CTA = () => (
   <section id="contato" className="py-24 hero-bg relative overflow-hidden">
@@ -278,7 +250,7 @@ const Index = () => {
       <Hero />
       <Vantagens />
       <Produtos />
-      <Depoimentos />
+      
       <CTA />
       <Footer />
     </div>
