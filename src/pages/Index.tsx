@@ -185,7 +185,7 @@ const Produtos = () => (
 
 const depoimentos = [
   
-  { nome: "Camila R.", cidade: "Curitiba, PR", texto: "Já é a terceira vez que compro. Atendimento rápido, produto original e entrega super rápida." },
+  
   { nome: "Rafael S.", cidade: "Belo Horizonte, MG", texto: "Desconfiava no início mas a experiência foi impecável. Nota fiscal, garantia e tudo certinho." },
 ];
 
